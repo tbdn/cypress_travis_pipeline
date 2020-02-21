@@ -7,3 +7,13 @@ addons:
   apt:
     packages:
       - libgconf-2-4
+
+cache:
+  npm: true
+  directories:
+    - ~/.npm
+    - ~/node_modules
+    - ~/.cache
+  override:
+    - npm ci
+    - npm run cy:verify
