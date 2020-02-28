@@ -19,4 +19,4 @@ install:
   - npm ci
 
 script:
-  - npm -v
+  - npx cypress run
