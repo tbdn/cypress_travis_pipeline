@@ -19,4 +19,4 @@ install:
   - npm ci
 
 script:
-  - npm run cy:verify
+  - npm -v
